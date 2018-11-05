@@ -1,5 +1,7 @@
 #include <GLFW/glfw3.h>
 #include <iostream>
+#include <cstdio>
+#include <cstdlib>
 
 int main(int argc, char *argv[])
 {
