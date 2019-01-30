@@ -31,4 +31,10 @@ gracefully?_).
 The solution is to tell the terminal about the display setup. Issue this once:
 
     export DISPLAY=:0
+    
+Depending on your setup you may first need to configure your X client on the server. For example, by issuing:
+
+    service lightdm stop
+    sudo nvidia-xconfig
+    service lightdm start
 
